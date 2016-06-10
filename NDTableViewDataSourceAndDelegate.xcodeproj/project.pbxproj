@@ -113,6 +113,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7DAF4F371D0A7FBB0091E643 /* FirstDemo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FirstDemo;
+			sourceTree = "<group>";
+		};
+		7DAF4F381D0A7FBB0091E643 /* SecondDemo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SecondDemo;
+			sourceTree = "<group>";
+		};
 		7DE3331E1D05541E007C1DC7 = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +192,8 @@
 		7DE333501D055491007C1DC7 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				7DAF4F371D0A7FBB0091E643 /* FirstDemo */,
+				7DAF4F381D0A7FBB0091E643 /* SecondDemo */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
