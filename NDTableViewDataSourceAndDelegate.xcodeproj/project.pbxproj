@@ -189,7 +189,6 @@
 				7DE333561D055491007C1DC7 /* DataSource */,
 				7DE3335D1D055491007C1DC7 /* Delegate */,
 				7DE333621D055491007C1DC7 /* Section */,
-				7DE333681D055491007C1DC7 /* TableView */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -238,13 +237,6 @@
 				7DE333671D055491007C1DC7 /* UITableView+NDTableViewSection.m */,
 			);
 			path = Section;
-			sourceTree = "<group>";
-		};
-		7DE333681D055491007C1DC7 /* TableView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TableView;
 			sourceTree = "<group>";
 		};
 		7DE333781D0557E3007C1DC7 /* ND_SystemCategory */ = {
@@ -582,6 +574,7 @@
 				7DE3334B1D05541E007C1DC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DE3334C1D05541E007C1DC7 /* Build configuration list for PBXNativeTarget "NDTableViewDataSourceAndDelegateTests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +583,7 @@
 				7DE3334E1D05541E007C1DC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

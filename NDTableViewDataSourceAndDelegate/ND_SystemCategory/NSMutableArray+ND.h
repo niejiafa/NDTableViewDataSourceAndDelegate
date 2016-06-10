@@ -1,6 +1,6 @@
 //
 //  NSMutableArray+ND.h
-//  JJObjCTool
+//  NDObjCTool
 //
 //  Created by NDMAC on 15/12/29.
 //  Copyright (c) 2015 NDEducation. All rights reserved.
