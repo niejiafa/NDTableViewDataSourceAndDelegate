@@ -11,11 +11,7 @@
 @interface FirstListModel : NDModel
 
 @property (nonatomic,copy) NSString *tname;
-
-/**
- *  新闻发布时间
- */
-@property (nonatomic,copy) NSString *ptime;
+@property (nonatomic,copy) NSString *postid;
 
 /**
  *  标题
@@ -68,7 +64,7 @@
 @property (nonatomic,copy) NSString *specialID;
 @property (nonatomic,copy) NSString *timeConsuming;
 @property (nonatomic,copy) NSString *subtitle;
-@property (nonatomic,copy) NSString *adTitle;
+@property (nonatomic,copy) NSString *ltitle;
 @property (nonatomic,copy) NSString *url;
 @property (nonatomic,copy) NSString *source;
 @property (nonatomic,copy) NSString *TAGS;

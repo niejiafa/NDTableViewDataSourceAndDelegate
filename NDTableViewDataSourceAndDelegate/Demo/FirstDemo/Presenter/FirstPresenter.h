@@ -12,7 +12,8 @@
 
 @interface FirstPresenter : NSObject
 
-@property (nonatomic,strong) FirstModel *firstModel;
+@property (nonatomic,strong) NSMutableArray *dataArray;
+@property (nonatomic, strong) NSDictionary *cellMap;
 
 - (void)obtainMockData;
 
