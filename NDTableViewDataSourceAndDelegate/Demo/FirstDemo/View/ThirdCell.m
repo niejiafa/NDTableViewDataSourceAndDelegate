@@ -29,7 +29,7 @@
     {
         self.itemLabel = [[UILabel alloc] init];
         [self.contentView addSubview:self.itemLabel];
-        self.itemLabel.textAlignment = NSTextAlignmentRight;
+        self.itemLabel.textAlignment = NSTextAlignmentLeft;
         self.itemLabel.numberOfLines = 0;
 
         [self.itemLabel mas_makeConstraints:^(MASConstraintMaker *make) {

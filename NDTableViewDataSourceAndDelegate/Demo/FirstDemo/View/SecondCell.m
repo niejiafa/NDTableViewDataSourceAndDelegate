@@ -29,7 +29,7 @@
     {
         self.itemLabel = [[UILabel alloc] init];
         [self.contentView addSubview:self.itemLabel];
-        self.itemLabel.textAlignment = NSTextAlignmentCenter;
+        self.itemLabel.textAlignment = NSTextAlignmentLeft;
         self.itemLabel.numberOfLines = 0;
 
         [self.itemLabel mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -44,7 +44,7 @@
 {
     FirstListModel *model = (FirstListModel *)object;
     
-    self.itemLabel.text = model.title;
+    self.itemLabel.text = model.ltitle;
 }
 
 + (CGFloat)nd_height:(id)object viewController:(UIViewController *)viewController

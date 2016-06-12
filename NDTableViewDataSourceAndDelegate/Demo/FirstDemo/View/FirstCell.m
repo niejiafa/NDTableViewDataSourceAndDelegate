@@ -44,7 +44,7 @@
 {
     FirstListModel *model = (FirstListModel *)object;
     
-    self.itemLabel.text = model.ltitle;
+    self.itemLabel.text = model.source;
 }
 
 + (CGFloat)nd_height:(id)object viewController:(UIViewController *)viewController
