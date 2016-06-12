@@ -17,11 +17,11 @@
     return (NDTableViewDelegate *)objc_getAssociatedObject(self, @selector(ndDelegate));
 }
 
-- (void)setNdDelegate:(NDTableViewDelegate *)ndDelegate_
+- (void)setNdDelegate:(NDTableViewDelegate *)ndDelegate
 {
-    if (self.ndDelegate != ndDelegate_)
+    if (self.ndDelegate != ndDelegate)
     {
-        objc_setAssociatedObject(self, @selector(ndDelegate), ndDelegate_, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+        objc_setAssociatedObject(self, @selector(ndDelegate), ndDelegate, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
         
         self.delegate = (id<UITableViewDelegate>)self.ndDelegate;
     }

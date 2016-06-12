@@ -19,11 +19,11 @@
     return (NDTableViewDataSource *)objc_getAssociatedObject(self, @selector(dataSourceObject));
 }
 
-- (void)setDataSourceObject:(NDTableViewDataSource *)dataSourceObject_
+- (void)setDataSourceObject:(NDTableViewDataSource *)dataSourceObject
 {
-    if (self.dataSourceObject != dataSourceObject_)
+    if (self.dataSourceObject != dataSourceObject)
     {
-        objc_setAssociatedObject(self, @selector(dataSourceObject), dataSourceObject_, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+        objc_setAssociatedObject(self, @selector(dataSourceObject), dataSourceObject, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     }
 }
 
