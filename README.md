@@ -1,6 +1,6 @@
 
 # NDTableViewDataSourceAndDelegate
-Stripping agent and data sources of tableView, decoupling the controller, reference to Hamilyjing
+Stripping agent and data sources of tableView, decoupling the controller
 
 # Flow Note
 ![image](https://github.com/indexjincieryi/NDTableViewDataSourceAndDelegate/blob/master/NDTableViewDataSourceAndDelegate/flownote.png)
@@ -22,4 +22,4 @@ _tableView.dataSourceObject = dataSource;///dataSource 动态绑定到 tableView
 See the Demo
 
 # More Info
-Have a question? Please [open an issue](https://github.com/indexjincieryi/ND_Architecture-Objc-/issues)!
+Have a question? Please [open an issue](https://github.com/indexjincieryi/NDTableViewDataSourceAndDelegate/issues)!
