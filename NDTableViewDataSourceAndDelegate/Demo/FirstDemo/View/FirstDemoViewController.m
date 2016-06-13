@@ -71,7 +71,6 @@
         return _tableView;
     }
     
-    
     _tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStyleGrouped];
     
     _tableView.ndDelegate = [[NDTableViewDelegate alloc] initWithDelegate:(id<UITableViewDelegate>)self tableView:_tableView viewController:self];
