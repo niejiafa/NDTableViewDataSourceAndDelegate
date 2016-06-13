@@ -50,7 +50,13 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
     }
     
-    cell.textLabel.text = @"First";
+    if (0 == indexPath.row)
+    {
+        cell.textLabel.text = @"First";
+    }else if (1 == indexPath.row)
+    {
+        cell.textLabel.text = @"Second";
+    }
     
     return cell;
 }
