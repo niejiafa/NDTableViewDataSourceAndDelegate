@@ -1,3 +1,4 @@
-# NDTableViewDataSourceAndDelegate
-Dissociate tableview dataSource and delegate
-ddsd
+
+* Flow Note
+
+![image](https://github.com/indexjincieryi/NDTableViewDataSourceAndDelegate/blob/master/NDTableViewDataSourceAndDelegate/flownote.png)
