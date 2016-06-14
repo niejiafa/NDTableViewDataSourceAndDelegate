@@ -38,18 +38,6 @@
     }];
 }
 
-#pragma mark - overwrite
-
-#pragma mark - public
-
-#pragma mark - delegate
-
-#pragma mark - notification
-
-#pragma mark - event response
-
-#pragma mark - private
-
 #pragma mark - getter and setter
 
 - (FirstPresenter *)presenter
