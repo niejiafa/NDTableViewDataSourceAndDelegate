@@ -1,6 +1,6 @@
 
 # NDTableViewDataSourceAndDelegate
-Stripping agent and data sources of tableView, decoupling the controller
+The agent, data from the view controller.Coupling agent, data source with the view controller is reduced, at the same time when the requirements change, add a different type of cell, simple logic to handle a lot.
 
 # Flow Note
 ![image](https://github.com/indexjincieryi/NDTableViewDataSourceAndDelegate/blob/master/NDTableViewDataSourceAndDelegate/flownote.png)
