@@ -29,10 +29,12 @@
         if ([obj.postid isEqualToString:@"FirstID"])
         {
             obj.ndCellMapKey = @"FirstCellTypeMapKey";
-        } else if ([obj.postid isEqualToString:@"SecondID"])
+        }
+        else if ([obj.postid isEqualToString:@"SecondID"])
         {
             obj.ndCellMapKey = @"SecondCellTypeMapKey";
-        } else if ([obj.postid isEqualToString:@"ThirdID"])
+        }
+        else if ([obj.postid isEqualToString:@"ThirdID"])
         {
             obj.ndCellMapKey = @"ThirdCellTypeMapKey";
         }
